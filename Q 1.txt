@@ -1,9 +1,0 @@
-# weather_model_hardcoded.py
-a = 1.2
-b = -3.4
-c = 15.0
-x = 5  # e.g., time or altitude
-
-y = a * x**2 + b * x + c
-print(f"Modeled weather value (y) at x = {x}: {y}")
-
