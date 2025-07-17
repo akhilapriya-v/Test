@@ -1,0 +1,11 @@
+def temperature_modeling(a, b, c, time):
+    return a * time**2 + b * time + c
+
+# Hardcoded values
+a = 1.2
+b = 2.5
+c = 30.0
+time = 5
+
+temp = temperature_modeling(a, b, c, time)
+print(f"Temperature at time {time} is {temp:.2f}")
