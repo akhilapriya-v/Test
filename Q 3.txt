@@ -1,9 +1,0 @@
-# weather_model_file_single.py
-with open("input.txt", "r") as file:
-    a = float(file.readline())
-    b = float(file.readline())
-    c = float(file.readline())
-    x = float(file.readline())
-
-y = a * x**2 + b * x + c
-print(f"Modeled weather value (y) at x = {x}: {y}")
