@@ -1,6 +1,0 @@
-# weather_model_file_multiple.py
-with open("multiple_inputs.txt", "r") as file:
-    for line in file:
-        a, b, c, x = map(float, line.strip().split())
-        y = a * x**2 + b * x + c
-        print(f"For input (a={a}, b={b}, c={c}, x={x}) → y = {y}")
