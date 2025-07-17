@@ -1,0 +1,11 @@
+def temperature_modeling(a, b, c, time):
+    return a * time**2 + b * time + c
+
+with open('weather_multiple.txt', 'r') as file:
+    count = 1
+    for line in file:
+        a, b, c, time = map(float, line.strip().split())
+        time = int(time)
+        temp = temperature_modeling(a, b, c, time)
+        print(f"Entry {count}: Temperature at time {time} is {temp:.2f}")
+        count += 1
